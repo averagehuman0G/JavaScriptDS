@@ -1,0 +1,29 @@
+{
+  "name": "javascriptds",
+  "version": "0.1.0",
+  "description": "Data structures implemented with JavaScript",
+  "main": "priorityQueue.js",
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonathanv3232/JavaScriptDS.git"
+  },
+  "keywords": [
+    "Data",
+    "Structures",
+    "Algorithms",
+    "JavaScript"
+  ],
+  "author": "Jonathan Vargas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jonathanv3232/JavaScriptDS/issues"
+  },
+  "homepage": "https://github.com/jonathanv3232/JavaScriptDS#readme"
+}

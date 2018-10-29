@@ -73,23 +73,4 @@ class PriorityQ {
     }
 }
 
-function maxQ(a,b) {
-    return a[1] > b[1];
-}
-function minQ(a,b) {
-    return a[1] < b[1];
-}
-
-//can either be max or min Priority Queue depending on the comparator function passed in 
-let maxPriorityQ = new PriorityQ(minQ);
-
-
-maxPriorityQ.insert([1, 10]);
-maxPriorityQ.insert([2, 5]);
-maxPriorityQ.insert([3, 100]);
-maxPriorityQ.insert([4, 9]);
-maxPriorityQ.insert([5, 0]);
-
-while(!maxPriorityQ.isEmpty()) {
-    console.log(maxPriorityQ.extractMax());
-}
+module.exports = PriorityQ;
